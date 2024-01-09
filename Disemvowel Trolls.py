@@ -11,7 +11,7 @@ Note: for this kata y isn't considered a vowel.
 """
 
 
-def disemvowel(string_):
+def disemvowel(string_: str) -> str:
     return ''.join([i for i in string_ if i not in 'aeiou'])
 
 

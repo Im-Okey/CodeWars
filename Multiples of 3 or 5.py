@@ -9,7 +9,7 @@ Note: If the number is a multiple of both 3 and 5, only count it once.
 """
 
 
-def solution(number):
+def solution(number: int) -> int:
     sum = 0
     for i in range(number):
         if (i % 3) == 0 or (i % 5) == 0:

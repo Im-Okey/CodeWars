@@ -11,7 +11,7 @@ Happy Coding!
 """
 
 
-def square_digits(num):
+def square_digits(num: int) -> int:
     list_of_nums = [int(i) for i in str(num)]
     final_list = [str(i**2) for i in list_of_nums]
     return int(''.join(final_list))

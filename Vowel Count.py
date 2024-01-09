@@ -7,7 +7,7 @@ The input string will only consist of lower case letters and/or spaces.
 """
 
 
-def get_count(sentence):
+def get_count(sentence: str) -> int:
     return len([i for i in sentence if i in 'aeiou'])
 
 
