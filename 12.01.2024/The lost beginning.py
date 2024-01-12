@@ -15,7 +15,7 @@ Size limits
 """
 
 
-def find(s):
+def find(s: str) -> int:
     length = len(s)
     for i in range(1, length // 2 + 1):
         num = int(s[:i])
