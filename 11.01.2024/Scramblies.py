@@ -27,5 +27,6 @@ def scramble(s1, s2):
             return False
     return True
 
+
 if __name__ == '__main__':
     print(scramble('scriptjava', 'javascript'))
