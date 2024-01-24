@@ -11,7 +11,7 @@ Assertion messages may be unclear about what they display in some languages. If 
 """
 
 
-def duplicate_encode(word):
+def duplicate_encode(word: str) -> str:
     word = word.lower()
     result = ''
     for char in word:
